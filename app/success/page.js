@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Success() { return <section className="tool-page shell narrow"><div className="success-card"><div className="success-check">✓</div><h1>Zahlung erfolgreich</h1><p>Danke. Für den vollständigen Pro-Launch muss jetzt noch das Nutzerkonto mit dem Stripe-Abonnement verknüpft werden.</p><Link className="button" href="/">Zur Startseite</Link></div></section>; }
